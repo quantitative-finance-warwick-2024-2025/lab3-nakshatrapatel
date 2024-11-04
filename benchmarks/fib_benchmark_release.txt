@@ -13,17 +13,17 @@ benchmark name                       samples       iterations    estimated
                                      mean          low mean      high mean
                                      std dev       low std dev   high std dev
 -------------------------------------------------------------------------------
-Fibonacci with loop                            100          1769    14.8596 ms 
-                                         84.302 ns     83.691 ns    84.7419 ns 
-                                        2.62403 ns    1.98501 ns    3.25686 ns 
+Fibonacci with loop                            100          9084      9.084 ms 
+                                        10.9769 ns    10.9423 ns     11.039 ns 
+                                       0.229904 ns   0.140992 ns   0.338117 ns 
                                                                                
-Fibonacci with recursion                       100             1    881.734 ms 
-                                        8.81087 ms     8.8049 ms    8.82578 ms 
-                                        45.1085 us    23.0474 us    94.4798 us 
+Fibonacci with recursion                       100             1    398.475 ms 
+                                        3.98477 ms     3.9808 ms    3.99063 ms 
+                                        24.3737 us    18.3138 us     39.855 us 
                                                                                
-Fibonacci with tail recursion                  100          1109    14.9715 ms 
-                                        135.588 ns    135.193 ns    136.289 ns 
-                                        2.61263 ns    1.67974 ns    3.90549 ns 
+Fibonacci with tail recursion                  100          9078      9.078 ms 
+                                        10.9696 ns    10.9306 ns    11.0712 ns 
+                                       0.295524 ns   0.133901 ns   0.596029 ns 
                                                                                
 
 ===============================================================================
